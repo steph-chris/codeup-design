@@ -1,6 +1,25 @@
 .col-xs-12 {
     background-color: red;
+    border: 1px solid cyan;
 }
-.col-xs-6 {
+.col-sm-6 {
     background-color: blue;
+    border: 1px solid cyan;
 }
+
+.col-md-4 {
+    background-color: purple;
+    border: 1px solid cyan;
+}
+
+@media screen and (max-width: 575px) {
+    .hidden-on-xs {
+        display: none;
+    }
+}
+/*
+@media screen and (min-width:576px) and (max-width:767px) {
+    .hidden-on-sm{
+        display: none;
+    }
+}*/
