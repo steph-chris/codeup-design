@@ -15,13 +15,15 @@
     <!--See lower content grid for notes on spacing if you need to grab some of the classes-->
     <header>
         <div class="row">
-            <div class="col-xs-12">
-                LOGO WITH WHITE BAND GOES HERE
+            <!--WHITE BAND-->
+            <div class="col-xs-12 white-band">
+
             </div>
         </div>
         <div class="row">
+            <!--CODEUP DESIGN LOGO-->
             <div class="col-xs-12">
-                CODEUP DESIGN HEADER
+                <img src="images/logo.png" alt="company-logo" style="width:105px; height:105px">
             </div>
         </div>
         <div class="row">
@@ -36,6 +38,7 @@
 
     <!--START OF HEADERS AND CIRCLE IMAGES-->
 
+<!-----HEADERS------->
     <div class="row">
         <div class="col-xs-12">
             VISUAL DESIGN & WEB DEVELOPMENT
@@ -46,33 +49,60 @@
             FROM PARK CITY, UTAH
         </div>
     </div>
+
+<!------CIRCLES-------->
+    <!----TODO: CENTER CIRCLES WITHIN GRID. SCALE TO LARGER SIZES-->
     <div class="row">
-        <div class="col-xs-12 col-sm-6">
-            PRETTY<br> CIRCLES
+        <div class="col-xs-6 col-sm-6">
+            <div class="badge-large red-badge">
+                DESIGN
+            </div>
         </div>
-        <div class="col-xs-12 col-sm-6">
-            MORE PRETTY <br>CIRCLES
+            <div class="col-xs-6 col-sm-6">
+                <div class="badge-large orange-badge">
+                    DEVELOP
+                </div>
+
+            </div>
+
         </div>
+    <div class="row">
+        <div class="col-xs-6 col-sm-6">
+            <div class="badge-large green-badge">
+                SUPPORT
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+            <div class="badge-large blue-badge">
+                HOST
+            </div>
+
+        </div>
+
     </div>
 
     <!--START OF LOWER BODY-->
 
     <hr class="d-none d-sm-block">
     <!--d-none=display none. d-sm-block=start displaying in block layout at sm and above-->
-    <div class="row">
-        <div class="col-xs-12 container-fluid">
+    <div class="row container-fluid">
+        <div class="col-xs-8 text-left">
             <p class="text-center">SELECTED WORK</p>
+        </div>
+        <div class="col"></div>
+        <div class="d-none d-md-inline col-md-4">
+            <p class="col-md-4 text-left">THE LAST</p>
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-xs-12 col-sm-6 col-md-4 container">
             <div class="background">
-                <img src="images/apple-ipad.jpg." class="lowerimage d-block mx-auto">
+                <img src="images/apple-ipad.jpg" class="lowerimage d-block mx-auto">
                 <!--d-block will take the element off inline format. mx-auto centers on all sides-->
             </div>
-            <div class="row no-gutters">
-                <span class="col-4">FEATURED PROJECT</span>
-                <!--<span class="offset-6"></span>-->
+            <div class="row lower-matrix">
+                <span class="col-6">FEATURED PROJECT</span>
+                <span class="col-2"></span>
                 <span class="badge badge-pill red-badge col-.5">D</span>
                 <span class="badge badge-pill orange-badge col-.5">D</span>
                 <span class="badge badge-pill green-badge col-.5">S</span>
@@ -81,9 +111,9 @@
             <div class="background">
                 <img src="images/man.jpg" class="lowerimage d-none d-sm-block mx-auto">
             </div>
-            <div class="row no-gutters d-none d-sm-block">
-                <span class="col-4">FEATURED PROJECT</span>
-                <!--<span class="offset-6"></span>-->
+            <div class="row lower-matrix d-none d-sm-block">
+                <span class="col-7">FEATURED PROJECT</span>
+                <span class="col-2"></span>
                 <span class="badge badge-pill red-badge col-.5">D</span>
                 <span class="badge badge-pill orange-badge col-.5">D</span>
                 <span class="badge badge-pill green-badge col-.5">S</span>
@@ -96,9 +126,9 @@
             <div class="background">
                 <img src="images/macbook.jpg" class="lowerimage d-block mx-auto">
             </div>
-            <div class="row no-gutters">
-                <span class="col-4">FEATURED PROJECT</span>
-                <!--<span class="offset-6"></span>-->
+            <div class="row lower-matrix">
+                <span class="col-7">FEATURED PROJECT</span>
+                <span class="col-2"></span>
                 <span class="badge badge-pill red-badge col-.5">D</span>
                 <span class="badge badge-pill orange-badge col-.5">D</span>
                 <span class="badge badge-pill green-badge col-.5">S</span>
@@ -107,9 +137,9 @@
             <div class="background">
                 <img src="images/security.jpg" class="lowerimage d-block mx-auto">
             </div>
-            <div class="row no-gutters">
-                <span class="col-4">FEATURED PROJECT</span>
-                <!--<span class="offset-6"></span>-->
+            <div class="row lower-matrix">
+                <span class="col-7">FEATURED PROJECT</span>
+                <span class="col-2"></span>
                 <span class="badge badge-pill red-badge col-.5">D</span>
                 <span class="badge badge-pill orange-badge col-.5">D</span>
                 <span class="badge badge-pill green-badge col-.5">S</span>
@@ -118,14 +148,55 @@
         </div>
 
         <div class="d-none d-md-block col-md-4">
-            LAST THING
-            <br>
-            FT PLS BUTTONS
-            <br>
-            <br>
-            MORE LAST THINGS
-            <br>
-            FT PLS BUTTONS
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="background">
+                    <img src="images/mobile-phone.jpg" class="third-col-image">
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="header">THE ADMIN BAR AND ABSOLUTE POSITIONING</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="background">
+                    <img src="images/head.jpg" class="third-col-image">
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="header">NIBBLER AWESOME WEBSITE TESTING</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="background">
+                    <img src="images/ipad.jpg" class="third-col-image">
+                </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="header">HOW TO GET GOOGLE TO LIKE YOU</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/twitter.jpg" class="third-col-image">
+                </div>
+                <div class="col-md-8">
+                    <p>LAST TWEET</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Assumenda consequuntur dolorum ea enim error est eveniet
+                        exercitationem inventore, minima, necessitatibus nulla praesentium
+                        quasi rem repudiandae rerum saepe voluptatem?</p>
+                </div>
+            </div>
         </div>
 
 
