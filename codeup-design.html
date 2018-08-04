@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <title>Codeup Design</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet">
     <link rel="stylesheet" href="codeup-design.css">
 </head>
 <body>
 <div class="container-fluid">
+
+    <!--START OF LOGO/NAV ROW-->
+    <!--See lower content grid for notes on spacing if you need to grab some of the classes-->
     <header>
         <div class="row">
             <div class="col-xs-12">
@@ -30,7 +34,7 @@
         </div>
     </header>
 
-
+    <!--START OF HEADERS AND CIRCLE IMAGES-->
 
     <div class="row">
         <div class="col-xs-12">
@@ -50,57 +54,85 @@
             MORE PRETTY <br>CIRCLES
         </div>
     </div>
+
+    <!--START OF LOWER BODY-->
+
+    <hr class="d-none d-sm-block">
+    <!--d-none=display none. d-sm-block=start displaying in block layout at sm and above-->
     <div class="row">
-        <div class="col-xs-12">
-            SMALLER HEADER
+        <div class="col-xs-12 container-fluid">
+            <p class="text-center">SELECTED WORK</p>
         </div>
     </div>
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-4">
-            APPLE MACBOOK
-            <br>
-            FT PLUS BUTTONS
-            <br>
-            <br>
-            HEAD
-            <br>
-            FT PLS BUTTONS
-        </div>
-
-
-        <div class="hidden-on-xs col-sm-6 col-md-4">
-            LAPTOP
-            <br>
-            FT PLS BUTTONS
-            <br>
-            <br>
-            SECURITY
-            <br>
-            FT PLS BUTTONS
-        </div>
-
-            <div class="hidden-sm-down col-md-4">
-                LAST THING
-                <br>
-                FT PLS BUTTONS
-                <br>
-                <br>
-                MORE LAST THINGS
-                <br>
-                FT PLS BUTTONS
+            <div class="background">
+                <img src="images/apple-ipad.jpg." class="lowerimage d-block mx-auto">
+                <!--d-block will take the element off inline format. mx-auto centers on all sides-->
             </div>
+            <div class="row no-gutters">
+                <span class="col-4">FEATURED PROJECT</span>
+                <!--<span class="offset-6"></span>-->
+                <span class="badge badge-pill red-badge col-.5">D</span>
+                <span class="badge badge-pill orange-badge col-.5">D</span>
+                <span class="badge badge-pill green-badge col-.5">S</span>
+                <span class="badge badge-pill blue-badge col-.5">H</span>
+            </div>
+            <div class="background">
+                <img src="images/man.jpg" class="lowerimage d-none d-sm-block mx-auto">
+            </div>
+            <div class="row no-gutters d-none d-sm-block">
+                <span class="col-4">FEATURED PROJECT</span>
+                <!--<span class="offset-6"></span>-->
+                <span class="badge badge-pill red-badge col-.5">D</span>
+                <span class="badge badge-pill orange-badge col-.5">D</span>
+                <span class="badge badge-pill green-badge col-.5">S</span>
+                <span class="badge badge-pill blue-badge col-.5">H</span>
+            </div>
+        </div>
+
+
+        <div class="d-none d-sm-block col-sm-6 col-md-4">
+            <div class="background">
+                <img src="images/macbook.jpg" class="lowerimage d-block mx-auto">
+            </div>
+            <div class="row no-gutters">
+                <span class="col-4">FEATURED PROJECT</span>
+                <!--<span class="offset-6"></span>-->
+                <span class="badge badge-pill red-badge col-.5">D</span>
+                <span class="badge badge-pill orange-badge col-.5">D</span>
+                <span class="badge badge-pill green-badge col-.5">S</span>
+                <span class="badge badge-pill blue-badge col-.5">H</span>
+            </div>
+            <div class="background">
+                <img src="images/security.jpg" class="lowerimage d-block mx-auto">
+            </div>
+            <div class="row no-gutters">
+                <span class="col-4">FEATURED PROJECT</span>
+                <!--<span class="offset-6"></span>-->
+                <span class="badge badge-pill red-badge col-.5">D</span>
+                <span class="badge badge-pill orange-badge col-.5">D</span>
+                <span class="badge badge-pill green-badge col-.5">S</span>
+                <span class="badge badge-pill blue-badge col-.5">H</span>
+            </div>
+        </div>
+
+        <div class="d-none d-md-block col-md-4">
+            LAST THING
+            <br>
+            FT PLS BUTTONS
+            <br>
+            <br>
+            MORE LAST THINGS
+            <br>
+            FT PLS BUTTONS
+        </div>
 
 
     </div>
 
 
-
-
-
-
 </div>
-
-
 
 
 </body>

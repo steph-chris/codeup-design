@@ -1,3 +1,15 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: #F0F0F0;
+}
+.header {
+    font-family: 'Anton', sans-serif;
+}
+.row {
+    width: 100%
+    padding-left: 0;
+    padding-right: 0;
+}
 .col-xs-12 {
     background-color: red;
     border: 1px solid cyan;
@@ -11,15 +23,41 @@
     background-color: purple;
     border: 1px solid cyan;
 }
-
-@media screen and (max-width: 575px) {
-    .hidden-on-xs {
-        display: none;
-    }
+.lowerimage {
+    max-width: 95%;
+    height: auto;
 }
-/*
-@media screen and (min-width:576px) and (max-width:767px) {
-    .hidden-on-sm{
-        display: none;
-    }
-}*/
+.background {
+    background-color: #E6E6E6;
+    border-radius: 2px;
+}
+.red-badge {
+    background-color: #E6563B;
+}
+.orange-badge {
+    background-color: #EB9D3A;
+}
+.green-badge {
+    background-color: #7CB06C;
+}
+.blue-badge {
+    background-color: #00ABA9;
+}
+.badge {
+    font-family: 'Anton', sans-serif;
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+/*@media screen and (max-width: 575px) {*/
+    /*.hidden-on-xs {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
+/**/
+/*@media screen and (min-width:576px) and (max-width:767px){*/
+    /*.hidden-on-sm{*/
+        /*display: none;*/
+    /*}*/
+/*}*/
