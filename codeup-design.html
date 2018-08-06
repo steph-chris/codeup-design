@@ -14,79 +14,78 @@
     <!--START OF LOGO/NAV ROW-->
     <!--See lower content grid for notes on spacing if you need to grab some of the classes-->
     <header>
-        <div class="row white-band">
-<!------WHITE BAND------------------------->
+        <div class="row white-band mt-4">
+            <!------WHITE BAND------------------------->
             <p>&nbsp;</p>
         </div>
-        <div class="row mx-auto logo">
-<!------LOGO------------------------------->
-            <div class="col-xs-12 mx-auto">
+
+        <!--TODO: NAV LINKS SPACING. VISUAL DESIGN BIGGER.-->
+        <!------ROW FOR NAV STUFF---------------->
+        <div class="row mx-auto mt-2">
+            <!------LOGO------------------------------->
+            <div class="col-xs-12 mx-auto logo order-sm-2">
                 <img src="images/logo.png" alt="company-logo" style="width:105px; height:105px">
             </div>
-        </div>
-<!------NAV LINKS-------------------------->
-        <div class="row">
-            <ul class="nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">SERVICES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">WORK</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">BLOG</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">CONTACT</a>
-                </li>
-            </ul>
-        </div>
-<!------FIRST HEADER (CODEUP DESIGN)----------->
-        <div class="row">
-            <h2 class="mx-auto">codeup design</h2>
-        </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+
+            <!------FIRST HEADER (CODEUP DESIGN)----------->
+            <div class="col-xs-12 order-sm-last mx-auto">
+                <h2>codeup design</h2>
+
+            </div>
+
+
+            <!------NAV LINKS------------------------->
+            <div class="col-xs-6 order-sm-1 mx-auto nav">
+                <a class="nav-link nav-item" href="#">SERVICES</a>
+                <a class="nav-link nav-item" href="#">WORK</a>
+                <div class="col-xs-6 order-sm-3 col-sm-4 offset-sm-2 mx-auto nav">
+                    <a class="nav-link nav-item" href="#">BLOG</a>
+                    <a class="nav-link nav-item" href="#">CONTACT</a>
+                </div>
+            </div>
     </header>
 
-<!-------SECOND/THIRD HEADER------------------->
-        <div class="row">
-            <div class="col-xs-12 mx-auto header">
-              <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
-            </div>
+
+    <!-------SECOND/THIRD HEADER------------------->
+    <div class="row">
+        <div class="col-xs-12 mx-auto header spacer">
+            <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
         </div>
+    </div>
 
-         <div class="row">
-             <div class="col-xs-12 mx-auto header">
-                 <h2>FROM PARK CITY, UTAH</h2>
-            </div>
-         </div>
-
-<!-------NAV CIRCLES--------------------------->
-    <nav class="row mx-auto">
-        <div class="col-xs-6">
-            <div class="badge-large red-badge">
-                DESIGN
-            </div>
+    <div class="row">
+        <div class="col-xs-12 mx-auto header spacer">
+            <h2>FROM PARK CITY, UTAH</h2>
         </div>
-            <div class="col-xs-6">
-                <div class="badge-large orange-badge">
-                    DEVELOP
-                </div>
+    </div>
 
-            </div>
-
-        </nav>
-    <nav class="row mx-auto">
-        <div class="col-xs-6">
-            <div class="badge-large green-badge">
-                SUPPORT
-            </div>
-        </div>
-        <div class="col-xs-6">
-            <div class="badge-large blue-badge">
-                HOST
-            </div>
+    <!-------NAV CIRCLES--------------------------->
+    <nav class="row justify-content-center spacer">
+        <div class="d-none d-sm-block">
 
         </div>
+        <div class="col-xs-6 col-sm-3 badge-large red-badge">
+            DESIGN
+        </div>
+
+        <div class="col-xs-6 col-sm-3 badge-large orange-badge">
+            DEVELOP
+        </div>
+
+
+        <div class="col-xs-6 col-sm-3 badge-large green-badge">
+            SUPPORT
+        </div>
+
+        <div class="col-xs-6 col-sm-3 badge-large blue-badge">
+            HOST
+        </div>
+        <div class="d-none d-sm-block">
+
+        </div>
+
 
     </nav>
 
@@ -162,8 +161,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="background">
-                    <img src="images/mobile-phone.jpg" class="third-col-image">
-                </div>
+                        <img src="images/mobile-phone.jpg" class="third-col-image">
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <p class="header left">THE ADMIN BAR AND ABSOLUTE POSITIONING</p>
@@ -172,8 +171,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="background">
-                    <img src="images/head.jpg" class="third-col-image">
-                </div>
+                        <img src="images/head.jpg" class="third-col-image">
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <p class="header left">NIBBLER AWESOME WEBSITE TESTING</p>
@@ -183,8 +182,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="background">
-                    <img src="images/ipad.jpg" class="third-col-image">
-                </div>
+                        <img src="images/ipad.jpg" class="third-col-image">
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <p class="header left">HOW TO GET GOOGLE TO LIKE YOU</p>
